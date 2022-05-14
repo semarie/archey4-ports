@@ -24,6 +24,7 @@ RUN_DEPENDS +=		net/py-netifaces${MODPY_FLAVOR}>=0.10 \
 
 TEST_DEPENDS +=		${RUN_DEPENDS}
 
+# TODO
 do-test:
 	cd ${WRKSRC} && ${MODPY_BIN} -m archey
 
