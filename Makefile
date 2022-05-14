@@ -6,7 +6,7 @@ DISTNAME =	archey4-${MODPY_EGG_VERSION}
 
 CATEGORIES =	sysutils
 
-HOMEPAGE =	https://github.com/HorlogeSkynet/archey4/0
+HOMEPAGE =	https://github.com/HorlogeSkynet/archey4
 
 # Default value is ports@openbsd.org, no need to fill in
 #MAINTAINER =		???
