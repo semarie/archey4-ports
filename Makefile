@@ -20,7 +20,7 @@ MODPY_PI =		Yes
 MODPY_SETUPTOOLS =	Yes
 
 RUN_DEPENDS +=		net/py-netifaces${MODPY_FLAVOR}>=0.10 \
-			sysutils/py-distro${MODPY_FLAVOR}=>1.3
+			sysutils/py-distro${MODPY_FLAVOR}>=1.3
 
 TEST_DEPENDS +=		${RUN_DEPENDS}
 
