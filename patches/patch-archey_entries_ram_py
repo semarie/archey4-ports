@@ -1,0 +1,12 @@
+Index: archey/entries/ram.py
+--- archey/entries/ram.py.orig
++++ archey/entries/ram.py
+@@ -94,7 +94,7 @@ class RAM(Entry):
+         """From `sysctl` and `vm_stat` calls, compute used and total system RAM values"""
+         total = float(
+             check_output(
+-                ['sysctl', '-n', 'hw.memsize'],
++                ['sysctl', '-n', 'hw.physmem'],
+                 universal_newlines=True
+             )
+         )

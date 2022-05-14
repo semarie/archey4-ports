@@ -1,0 +1,12 @@
+Index: archey/entries/cpu.py
+--- archey/entries/cpu.py.orig
++++ archey/entries/cpu.py
+@@ -156,7 +156,7 @@ class CPU(Entry):
+             sysctl_output = check_output(
+                 [
+                     'sysctl', '-n',
+-                    'machdep.cpu.brand_string', 'machdep.cpu.core_count'
++                    'machdep.cpuvendor', 'hw.ncpufound'
+                 ],
+                 stderr=DEVNULL, universal_newlines=True
+             )
