@@ -1,0 +1,9 @@
+Archey is a simple system information tool written in Python
+
+- Run as quickly as possible
+- Stay as light as possible
+- Keep entries ordered despite parallelism
+- Extensive local and public IP addresses detection
+- General temperature detection
+- JSON output
+- Screen capture ("best effort")
